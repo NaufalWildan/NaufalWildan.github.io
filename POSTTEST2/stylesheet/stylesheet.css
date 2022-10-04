@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    font-family:sans-serif;
+    color: #edf2f4;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.logo h1{
+    margin: 30px ;
+}
+
+.navbarcontainer{
+    height: 10vh;
+    width: 100%;
+    background-color: #d90429;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li{
+    margin: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-color: #2b2d42;
+}
+
+.main h1{
+    margin-top: 15px;
+    font-size: 130px
+}
+
+.content{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.content h1{
+    font-size: 40px;
+}
+
+.container-sepatu{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.img1{
+    height: 300px;
+    width: 450px;
+}
+
+.img2{
+    height: 350px;
+    width: 500px;
+}
+
+.img3{
+    height: 400px;
+    width: 550px;
+}
+
+.tbl-pesan{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.tbl1{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 45px;
+    margin-left: 10%;
+    width:130px;
+    background-color: #d90429;
+}
+.tbl2{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    border-radius: 10px;
+    height: 45px;
+    width:130px;
+    background-color: #d90429;
+}
+.tbl3{
+    cursor: pointer;
+    margin-left: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 45px;
+    width:130px;
+    background-color: #d90429;
+}
+
+.footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #8d99ae;
+}
+
+.footer h2{
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.footer p{
+    margin-top: 40px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
